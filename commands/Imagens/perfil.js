@@ -3,7 +3,6 @@ const {Canvas,fillWithEmoji} = require('discord-emoji-canvas')
 const Util = require('../../util/MitUtil.js')
 const { MessageAttachment } = require('discord.js')
 const db = require('../../util/Database.js')
-let 
 // Fontes
 Canvas.registerFont("./src/fonts/Montserrat-Black.ttf", { family: "Montserrat" });
 Canvas.registerFont("./src/fonts/Segoe Print.ttf", { family: "Segoe Print" });
@@ -12,6 +11,7 @@ Canvas.registerFont("./src/fonts/Segoe UI Black.ttf", {
   family: "Segoe UI Black",
 });
 
+// Quebra de Linha
 function addBreakLines(str, max) {
         max = max + 1;
         for (let i = 0; i < str.length / max; i++) {
@@ -23,9 +23,11 @@ function addBreakLines(str, max) {
         return str;
       }
 
+// Emprego
 let rawdata = fs.readFileSync('./include/assets/json/jobs.json');
 let Game = JSON.parse(rawdata);
 
+// Comando
 module.exports = {
   name: "perfil",
 args: 0,
