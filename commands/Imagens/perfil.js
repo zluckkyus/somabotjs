@@ -73,7 +73,7 @@ args: 0,
       ctx.fillStyle = "rgb(253, 255, 252)";
       ctx.fillText(
         addBreakLines((mim), 70), 10, 570)
-      await fillWithEmoji(ctx, `💼 Emprego: ${emprego || "Desempregado"}`, 245, 180)
+      await fillWithEmoji(ctx, `💼 Emprego: ${emprego || "Desempregado"}`, 245, 170)
       
       // Coins/XP
       let Balance = Util.NotNumberCheck(await db.get(`${USER.id}_balance`));
