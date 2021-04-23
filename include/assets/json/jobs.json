@@ -1,0 +1,359 @@
+{
+  "data": [
+    "arqueiro", "artífice", "bárbaro", "bardo", "bombardeiro", "carpinteiro", "cavalaria", "clérigo", "darkmage", "druida", "agricultor", "pescador", "gladiador", "herói", "Caçador", "Cavaleiro", "lenhador", "mago", "mineiro", "monge", "necromante", "ninja", "paladino", "cakechef", "guarda-florestal", "rebelde", "rouge", "sábio", "Atirador", "invocador", "fanfarrão", "ferreiros", "Bandido", "titã", "bruxo", "bruxa", "Mago"
+  ],
+  "jobs": {
+    "arqueiro": {
+      "lebel": "Arqueiro",
+      "level": "5",
+      "earnings": "2000",
+      "bonus": "500",
+      "description": "Uma pessoa que atira com arco e flecha.",
+      "maxpromotion": "10",
+      "risk": "20"
+    },
+    "artífice": {
+      "lebel": "Artífice",
+      "level": "35",
+      "earnings": "6000",
+      "bonus": "1000",
+      "description": "Uma pessoa que gosta de procurar por artefatos.",
+      "maxpromotion": "15",
+      "risk": "50"
+    },
+    "bárbaro": {
+      "lebel": "Bárbaro",
+      "level": "8",
+      "earnings": "2500",
+      "bonus": "800",
+      "description": "Guerreiros, eles não são da civilização.",
+      "maxpromotion": "15",
+      "risk": "30"
+    },
+    "bardo": {
+      "lebel": "Bardo",
+      "level": "45",
+      "earnings": "6000",
+      "bonus": "950",
+      "description": "Um usuario magico que pode criar ilusões.",
+      "maxpromotion": "8",
+      "risk": "55"
+    },
+    "bombardeiro": {
+      "lebel": "Bombardeiro",
+      "level": "15",
+      "earnings": "1500",
+      "bonus": "1500",
+      "description": "Exploda, exploda tudo!.",
+      "maxpromotion": "10",
+      "risk": "75"
+    },
+    "carpinteiro": {
+      "lebel": "Carpinteiro",
+      "level": "0",
+      "earnings": "800",
+      "bonus": "250",
+      "description": "Uma pessoa que cria & conserta objetos de madeira.",
+      "maxpromotion": "18",
+      "risk": "1"
+    },
+    "cavalaria": {
+      "lebel": "Cavalaria",
+      "level": "25",
+      "earnings": "5000",
+      "bonus": "1200",
+      "description": "Guerreiros, que lutam em um cavalo.",
+      "maxpromotion": "13",
+      "risk": "40"
+    },
+    "clérigo": {
+      "lebel": "Clérigo",
+      "level": "5",
+      "earnings": "1500",
+      "bonus": "500",
+      "description": "Um presidente ou líder religioso.",
+      "maxpromotion": "5",
+      "risk": "15"
+    },
+    "darkmage": {
+      "lebel": "Mago Sombrio",
+      "level": "75",
+      "earnings": "75000",
+      "bonus": "500",
+      "description": "Seja um mago de magia negra.",
+      "maxpromotion": "3",
+      "risk": "98"
+    },
+    "druida": {
+      "lebel": "Druida",
+      "level": "45",
+      "earnings": "6000",
+      "bonus": "300",
+      "description": "Um mago que está em uma classe alta de religião antiga.",
+      "maxpromotion": "8",
+      "risk": "70"
+    },
+    "agricultor": {
+      "lebel": "Agricultor",
+      "level": "0",
+      "earnings": "800",
+      "bonus": "100",
+      "description": "Cuide de sua fazenda.",
+      "maxpromotion": "10",
+      "risk": "10"
+    },
+    "pescador": {
+      "lebel": "Pescador",
+      "level": "1",
+      "earnings": "500",
+      "bonus": "800",
+      "description": "Vá para o mar e pesque peixes.",
+      "maxpromotion": "8",
+      "risk": "25"
+    },
+    "gladiador": {
+      "lebel": "Gladiador",
+      "level": "30",
+      "earnings": "8500",
+      "bonus": "500",
+      "description": "Você foi treinado para lutar por sua vida no coliseu.",
+      "maxpromotion": "16",
+      "risk": "90"
+    },
+    "herói": {
+      "lebel": "Herói",
+      "level": "10",
+      "earnings": "5000",
+      "bonus": "1500",
+      "description": "Proteja o mundo do mal!",
+      "maxpromotion": "18",
+      "risk": "85"
+    },
+    "Caçador": {
+      "lebel": "Caçador",
+      "level": "20",
+      "earnings": "5600",
+      "bonus": "800",
+      "description": "Caçe criaturas.",
+      "maxpromotion": "10",
+      "risk": "70"
+    },
+    "Cavaleiro": {
+      "lebel": "Cavaleiro Real",
+      "level": "28",
+      "earnings": "8000",
+      "bonus": "800",
+      "description": "Soldados leais de alta classe com amores altamente equipados",
+      "maxpromotion": "13",
+      "risk": "95"
+    },
+    "lenhador": {
+      "lebel": "Lenhador",
+      "level": "0",
+      "earnings": "500",
+      "bonus": "200",
+      "description": "Pessoas que coletam madeiras, derrubam árvores e as cortam em toras.",
+      "maxpromotion": "4",
+      "risk": "10"
+    },
+    "mago": {
+      "lebel": "Mago",
+      "level": "40",
+      "earnings": "5000",
+      "bonus": "1000",
+      "description": "Brinque com magia, mas tenha cuidado.",
+      "maxpromotion": "13",
+      "risk": "75"
+    },
+    "mineiro": {
+      "lebel": "Mineiro",
+      "level": "18",
+      "earnings": "8000",
+      "bonus": "500",
+      "description": "Pessoas que trabalham em uma mina para extrair tesouros e minerais valiosos.",
+      "maxpromotion": "5",
+      "risk": "90"
+    },
+    "monge": {
+      "lebel": "Monge",
+      "level": "0",
+      "earnings": "200",
+      "bonus": "50",
+      "description": "Um membro de uma comunidade religiosa.",
+      "maxpromotion": "5",
+      "risk": "0"
+    },
+    "necromante": {
+      "lebel": "Necromante",
+      "level": "15",
+      "earnings": "5000",
+      "bonus": "1000",
+      "description": "Pessoas que praticam necromancia ou magia.",
+      "maxpromotion": "3",
+      "risk": "80"
+    },
+    "ninja": {
+      "lebel": "Ninja",
+      "level": "25",
+      "earnings": "3000",
+      "bonus": "800",
+      "description": "Pessoas que dominam a arte do ninjutsu japonês.",
+      "maxpromotion": "15",
+      "risk": "60"
+    },
+    "paladino": {
+      "lebel": "Paladino",
+      "level": "48",
+      "earnings": "10000",
+      "bonus": "5000",
+      "description": "Pessoas que são conhecidas por heroísmo e cavalheirismo",
+      "maxpromotion": "15",
+      "risk": "80"
+    },
+    "cakechef": {
+      "lebel": "Chef de confeitaria",
+      "level": "0",
+      "earnings": "1500",
+      "bonus": "500",
+      "description": "Pessoas que fazem bolos e fazem bolos ou pães.",
+      "maxpromotion": "5",
+      "risk": "10"
+    },
+    "guarda-florestal": {
+      "lebel": "Guarda-Florestal",
+      "level": "13",
+      "earnings": "7500",
+      "bonus": "1000",
+      "description": "Pessoas que são hábeis em artesanato em madeira, furtividade, sobrevivência na selva, domínio da besta, fitoterapia, rastreamento e também têm resistência à magia.",
+      "maxpromotion": "8",
+      "risk": "65"
+    },
+    "rebelde": {
+      "lebel": "Rebelde",
+      "level": "35",
+      "earnings": "5000",
+      "bonus": "800",
+      "description": "Pessoas que se levantam contra qualquer lado oposto.",
+      "maxpromotion": "8",
+      "risk": "90"
+    },
+    "rouge": {
+      "lebel": "Rouge",
+      "level": "26",
+      "earnings": "6000",
+      "bonus": "2000",
+      "description": "Pessoas que possuem uma ampla gama de habilidades que lhes permitem realizar talentos, desde encontrar portas secretas a bater em um item mágico até que funcione.",
+      "maxpromotion": "10",
+      "risk": "70"
+    },
+    "sábio": {
+      "lebel": "Sábio",
+      "level": "5",
+      "earnings": "500",
+      "bonus": "500",
+      "description": "Uma pessoa profundamente sábia; uma pessoa famosa pela sabedoria. alguém venerado pela posse de sabedoria, julgamento",
+      "maxpromotion": "6",
+      "risk": "0"
+    },
+    "Atirador": {
+      "lebel": "Atirador",
+      "level": "50",
+      "earnings": "6000",
+      "bonus": "1200",
+      "description": "Um Exo Guardião e o Vanguard para a classe Hunter",
+      "maxpromotion": "15",
+      "risk": "95"
+    },
+    "invocador": {
+      "lebel": "Invocador",
+      "level": "49",
+      "earnings": "4500",
+      "bonus": "5000",
+      "description": "Pessoas que podem invocar qualquer coisa, menos aleatoriamente.",
+      "maxpromotion": "15",
+      "risk": "80"
+    },
+    "fanfarrão": {
+      "lebel": "FanFarrão",
+      "level": "5",
+      "earnings": "3000",
+      "bonus": "500",
+      "description": "Pessoas que são hábeis em esgrima, acrobacia, astúcia e ideais cavalheirescos",
+      "maxpromotion": "13",
+      "risk": "60"
+    },
+    "ferreiros": {
+      "lebel": "Ferreiro",
+      "level": "5",
+      "earnings": "2900",
+      "bonus": "1500",
+      "description": "Pessoas que fabricam e atualizam armas",
+      "maxpromotion": "13",
+      "risk": "50"
+    },
+    "Bandido": {
+      "lebel": "Bandido",
+      "level": "8",
+      "earnings": "1000",
+      "bonus": "6000",
+      "description": "Roube todo mundo.",
+      "maxpromotion": "6",
+      "risk": "99"
+    },
+    "titã": {
+      "lebel": "Titã",
+      "level": "50",
+      "earnings": "8000",
+      "bonus": "1000",
+      "description": "Pessoas que são do tamanho de gigantes, maiores do que os humanos comuns.",
+      "maxpromotion": "13",
+      "risk": "98"
+    },
+    "bruxo": {
+      "lebel": "Bruxo",
+      "level": "50",
+      "earnings": "7500",
+      "bonus": "2000",
+      "description": "Uma robótica de alta tecnologia que pratica bruxaria ou magia.",
+      "maxpromotion": "10",
+      "risk": "80"
+    },
+    "bruxa": {
+      "lebel": "Bruxa",
+      "level": "38",
+      "earnings": "3500",
+      "bonus": "1500",
+      "description": "Pessoas que praticam poderes mágicos malignos.",
+      "maxpromotion": "15",
+      "risk": "85"
+    },
+    "Mago": {
+      "lebel": "Mago Real",
+      "level": "50",
+      "earnings": "10000",
+      "bonus": "5000",
+      "description": "Pessoas que têm os poderes mágicos mais poderosos.",
+      "maxpromotion": "16",
+      "risk": "96"
+    }
+  },
+  "datajob": {
+    "ancientlocations": [
+      "angkorwat", "pirâmide de Gizé", "pedras carnac", "stonehenge", "Fórum Romano", "cave pettakere", "sigiriya", "grande Muralha", "volubilis", "petra", "pompéia", "heracleion", "luoyang", "caral perdido", "poseidon perdida", "templo zeus", "templo leonidas", "templo grego", "Sidon", "templo bayon", "cave pettakere", "templo medusa", "templo darkMage", "Machu Picchu", "templo hades", "templo ares", "templo tikal", "templo partenon", "ilha da Páscoa", "templo tajmahal", "castelo de alhambra", "templo chichenitza", "templo volubilis", "caverna da cobra", "templo sukhothai", "castelo varanasi", "cidade atenas", "cidade sparta", "templo de petra", "Coliseu", "arena epidárica", "templo lúcifer", "templo apolo", "anceint olympia", "floresta antiga", "floresta Negra", "templo borobudure", "terracota", "cavernas ellora"
+    ],
+    "ancientitems": [
+      "Punhais", "Vaso", "Moedas", "Lança", "Espadas", "Varinha", "Pulseira", "Estátua", "Ossos", "Golds", "Diamantes", "Colar", "Armaduras", "Capacete", "Terno", "Peito", "Sheild", "Arcos", "Marcadores", "Setas; flechas", "Tigela", "Coroa", "Selim", "Corda", "Relógio", "Chaves", "SpartanHelmet", "Slivers", "Botas", "Canivete", "Apanhador de Sonhos", "Espada de samurai", "HeadStones"
+    ],
+    "rememberemojis": [
+      "🩸" ,
+      "💋" ,
+      "❤️",
+      "💄",
+      "🐙",
+      "🐔",
+      "🐳",
+      "🚨",
+      "⚓"
+    ]
+  }
+}

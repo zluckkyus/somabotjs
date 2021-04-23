@@ -1,0 +1,279 @@
+{
+    "data": {
+        "filecommands": [
+            "Config",
+            "Diverso",
+            "Dono",
+            "Musica",
+            "Economia",
+            "Imagens",
+            "Mod",
+            "Utilidades"
+        ],
+        "searchLocation": [
+            "discord",
+            "glovebox",
+            "seat",
+            "attic",
+            "shoe",
+            "box",
+            "yak",
+            "school",
+            "cake",
+            "pumpkin",
+            "market",
+            "boat",
+            "railway",
+            "mountain",
+            "trash",
+            "sofa",
+            "couch",
+            "bag",
+            "sidewalk",
+            "mailbox",
+            "tree",
+            "house",
+            "car",
+            "warehouse",
+            "bank",
+            "drawer",
+            "carbinet",
+            "locker",
+            "toilet",
+            "bathroom",
+            "shower",
+            "trashcan",
+            "bed",
+            "sofa",
+            "desk",
+            "garage",
+            "elevator",
+            "pocket",
+            "sand",
+            "playground",
+            "toolbox",
+            "suitcase",
+            "lake",
+            "blanket",
+            "stove",
+            "fridge",
+            "van",
+            "doghouse",
+            "forest",
+            "waterfall",
+            "island",
+            "cave",
+            "bunker",
+            "dvd",
+            "paper",
+            "clock",
+            "painting"
+        ],
+        "Upgrades": [
+            "moneyprintermk1",
+            "moneyprintermk2",
+            "moneyprintermk3"
+        ],
+        "Bases": [
+            "ghetto",
+            "hood",
+            "hideout",
+            "safehouse",
+            "suburbs",
+            "nightclub",
+            "bunker",
+            "facility",
+            "casino"
+        ],
+        "Shops": [
+            "camera"
+        ],
+        "Emotes": [
+            "<:623575870375985162:747703667645481051>",
+            "<:623564440989859851:747703667247022101>",
+            "<:623564440545263626:747703667624509460>",
+            "<:623564440624824320:747703667301416990>",
+            "<:623564440851316760:747703667146227755>",
+            "<:623564440679350319:747703666999296062>",
+            "<:623564440754978843:747703667238502492>",
+            "<:623564440901779496:747703667481772163>",
+            "<:623564440897454081:747703667452542996>",
+            "<:623564440951980084:747703667544817685>"
+        ],
+        "blackjackemotes": [
+            "<:623575870375985162:747703667645481051>",
+            "<:623575868672835584:747703667486097508>",
+            "<:623564441103106058:747703667037044758>",
+            "<:623564441073614848:747703667179651084>",
+            "<:623564440989859851:747703667247022101>",
+            "<:623564440964694036:747703667502743563>",
+            "<:623564440951980084:747703667544817685>",
+            "<:623564440901779496:747703667481772163>",
+            "<:623564440897454081:747703667452542996>",
+            "<:623564440880807956:747703667448217621>",
+            "<:623564440880807936:747703667263668316>",
+            "<:623564440880545798:747703667439960134>",
+            "<:623564440868225035:747703667272187956>",
+            "<:623564440868225025:747703667179913278>",
+            "<:623564440863899663:747703667443892235>",
+            "<:623564440851316760:747703667146227755>",
+            "<:623564440851185679:747703667137970217>",
+            "<:623564440826150912:747703667339296808>",
+            "<:623564440759173121:747703667112804443>",
+            "<:623564440754978843:747703667238502492>",
+            "<:623564440679350319:747703666999296062>",
+            "<:623564440624824320:747703667301416990>",
+            "<:623564440620630057:747703667381239828>",
+            "<:623564440582881282:747703667318194176>",
+            "<:623564440574623774:747703667288702997>",
+            "<:623564440545263626:747703667624509460>"
+        ],
+        "blackjack": [
+            "A",
+            "A",
+            "4",
+            "K",
+            "2",
+            "7",
+            "J",
+            "8",
+            "9",
+            "K",
+            "Q",
+            "3",
+            "5",
+            "9",
+            "10",
+            "5",
+            "Q",
+            "8",
+            "6",
+            "7",
+            "6",
+            "4",
+            "10",
+            "J",
+            "2",
+            "3"
+        ]
+    },
+    "bases": {
+        "ghetto": {
+            "lebel": "Ghetto",
+            "value": "5000",
+            "description": "Um esconderijo muito pequeno, sem proteção e com pouco espaço...",
+            "maxupgrade": "2",
+            "basestats": {
+                "defend": "0",
+                "luck": "0"
+            }
+        },
+        "hood": {
+            "lebel": "Vizinhança",
+            "value": "20000",
+            "description": "Viver com uma pequena comunidade que oferece pouca proteção.",
+            "maxupgrade": "3",
+            "basestats": {
+                "defend": "10",
+                "luck": "5"
+            }
+        },
+        "hideout": {
+            "lebel": "Esconderijo",
+            "value": "350000",
+            "description": "Um pequeno esconderijo para você e para você. Não oferece proteção, mas dá um pouco de sorte.",
+            "maxupgrade": "4",
+            "basestats": {
+                "defend": "5",
+                "luck": "15"
+            }
+        },
+        "safehouse": {
+            "lebel": "Safe House",
+            "value": "500000",
+            "description": "Uma base bem arredondada que oferece alguma proteção e sorte ao ser espaçosa.",
+            "maxupgrade": "5",
+            "basestats": {
+                "defend": "20",
+                "luck": "20"
+            }
+        },
+        "suburbs": {
+            "lebel": "Subúrbios",
+            "value": "1000000",
+            "description": "Um lugar caro para ficar, mas oferecia grande proteção, mas não muita sorte.",
+            "maxupgrade": "6",
+            "basestats": {
+                "defend": "30",
+                "luck": "15"
+            }
+        },
+        "nightclub": {
+            "lebel": "Night Club",
+            "value": "1750250",
+            "description": "Uma boate com seus próprios guardas e controle. Fornece proteção e sorte realmente boas.",
+            "maxupgrade": "7",
+            "basestats": {
+                "defend": "50",
+                "luck": "40"
+            }
+        },
+        "bunker": {
+            "lebel": "Bunker",
+            "value": "2500000",
+            "description": "Bunkers são enormes instalações subterrâneas que fornecem grande defesa, mas pouca sorte.",
+            "maxupgrade": "8",
+            "basestats": {
+                "defend": "80",
+                "luck": "30"
+            }
+        },
+        "facility": {
+            "lebel": "Facility",
+            "value": "3500000",
+            "description": "As instalações são muito maiores e mais fortes, proporcionando uma defesa incrível, mas muito pouca sorte",
+            "maxupgrade": "9",
+            "basestats": {
+                "defend": "90",
+                "luck": "30"
+            }
+        },
+        "casino": {
+            "lebel": "O Grande Casino",
+            "value": "5000000",
+            "description": "O Grand Casino, o melhor lugar para ganhar, mas difícil de manter seguro e defender",
+            "maxupgrade": "10",
+            "basestats": {
+                "defend": "30",
+                "luck": "100"
+            }
+        }
+    },
+    "upgrades": {
+        "moneyprintermk1": {
+            "lebel": "Impressora de dinheiro LVL I",
+            "value": "5000",
+            "description": "Aumenta enquanto você envia mensagens",
+            "upgrade": "5"
+        },
+        "moneyprintermk2": {
+            "lebel": "Impressora de dinheiro LVL II",
+            "value": "7500",
+            "description": "Aumenta quanto você recebe por comandos de bot que você envia",
+            "upgrade": "10"
+        },
+        "moneyprintermk3": {
+            "lebel": "Impressora de dinheiro LVL III",
+            "value": "10000",
+            "description": "Aumenta quanto você executar os comandos do bot",
+            "upgrade": "10"
+        }
+    },
+    "shop": {
+        "camera": {
+            "lebel": "Camera",
+            "value": "6075",
+            "description": "Você pode tirar fotos e assim vender-las!"
+        }
+    }
+}
