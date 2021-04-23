@@ -35,7 +35,7 @@ args: 0,
   category: "🍦 Utilidades",
   description: "Veja seu Perfil.",
   async execute(message, args, client) {
-
+   try {
     // Loads
     const USER = client.users.cache.get(args[0]) || message.mentions.users.first() || message.author;
     const canvas = Canvas.createCanvas(1280,720)
@@ -107,5 +107,8 @@ args: 0,
     const attach = new MessageAttachment(buffer, `Profile_${USER.tag}_.png`);
     // Send Message
     message.channel.send(attach)
+   } catch(err) {
+     message.channel.send("💼 **| Você não tem um emprego portanto não pode ver seu perfil, pegue um emprego e tente novamente!**")
+   }
   }
 }
