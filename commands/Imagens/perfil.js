@@ -68,7 +68,8 @@ args: 0,
       ctx.font = '43px "Segoe UI Black"';
       ctx.fillStyle = "rgb(253, 255, 252)";
       await fillWithEmoji(ctx, "💰 Coins", 10, 260);
-      await fillWithEmoji(ctx, "🏦 Banco", 10, 350)
+      await fillWithEmoji(ctx, "🏦 Banco", 10, 350);
+      await fillWithEmoji(ctx, `💼 Emprego: ${emprego || "Desempregado"}`, 245, 160)
       ctx.textAlign = "left";
       ctx.font = '35px "Segoe UI Black"';
       ctx.fillStyle = "rgb(253, 255, 252)";
