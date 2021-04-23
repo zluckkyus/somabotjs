@@ -47,8 +47,6 @@ args: 0,
      emprego = "Desempregado"
     } else {
      emprego = Game.jobs[JobArray[OptionNumber]].lebel
-    } catch(err) {
-      message.reply("Ocorreu algum erro contate o dono!")
     }
     
     // BackGround
