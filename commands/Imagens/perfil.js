@@ -37,7 +37,12 @@ args: 0,
   async execute(message, args, client) {
     let JobArray = Game["data"]
     let OptionNumber = await db.get(`${message.author.id}_job`)
-    let emprego = Game.jobs[JobArray[OptionNumber]].lebel
+    let emprego;
+    if (OptionNumber == null) {
+     emprego = "Desempregado"
+    } else {
+     emprego = Game.jobs[JobArray[OptionNumber]].lebel
+    }
     // Loads
     const USER = client.users.cache.get(args[0]) || message.mentions.users.first() || message.author;
     const canvas = Canvas.createCanvas(1280,720)
