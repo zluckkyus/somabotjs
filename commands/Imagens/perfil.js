@@ -35,18 +35,21 @@ args: 0,
   category: "🍦 Utilidades",
   description: "Veja seu Perfil.",
   async execute(message, args, client) {
-    let JobArray = Game["data"]
-    let OptionNumber = await db.get(`${message.author.id}_job`)
-    let emprego;
-    if (OptionNumber == null) {
-     emprego = "Desempregado"
-    } else {
-     emprego = Game.jobs[JobArray[OptionNumber]].lebel
-    }
+
     // Loads
     const USER = client.users.cache.get(args[0]) || message.mentions.users.first() || message.author;
     const canvas = Canvas.createCanvas(1280,720)
     const ctx = canvas.getContext('2d')
+    let JobArray = Game["data"]
+    let OptionNumber = await db.get(`${USER.id}_job`)
+    let emprego;
+    if (!db.has(`${USER.ID}_job`)) {
+     emprego = "Desempregado"
+    } else {
+     emprego = Game.jobs[JobArray[OptionNumber]].lebel
+    } catch(err) {
+      message.reply("Ocorreu algum erro contate o dono!")
+    }
     
     // BackGround
     const background = await Canvas.loadImage("./src/img/background.png")
