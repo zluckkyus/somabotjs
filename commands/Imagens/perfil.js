@@ -60,7 +60,6 @@ args: 0,
           : USER.username,
         245,
         120)
-      ctx.fillText(`Emprego: ${emprego}`, 245, 140)
 
       // Titles
       var mim = await db.get(`Perfil/${USER.id}`)
