@@ -144,7 +144,7 @@ client.on('message', async message => {
         let sobre = await db.has(`Perfil/${message.author.id}`)
         
         if (!Emp) {
-          await db.set(`${message.author.id}_job`, null)
+          await db.set(`${message.author.id}_job`, false)
         }
 
         if (!sobre) {
