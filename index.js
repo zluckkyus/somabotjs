@@ -135,7 +135,7 @@ client.on('message', async message => {
         if (message.author.bot || !message.guild || !message.guild.available) return;
 
         var start = new Date();
-
+        let Emp = await db.has(`${message.author.id}_job`)
         let ServerPrefix = prefix;
         let ServerAntiSpam = "off";
         let ServerFilterInvite = "off";
@@ -143,6 +143,10 @@ client.on('message', async message => {
         
         let sobre = await db.has(`Perfil/${message.author.id}`)
         
+        if (!Emp) {
+          await db.set(`${message.author.id}_job`, null)
+        }
+
         if (!sobre) {
           await db.set(`Perfil/${message.author.id}`, SobreMim)
         }
