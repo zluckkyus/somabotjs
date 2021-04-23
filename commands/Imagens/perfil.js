@@ -1,4 +1,5 @@
 const abbrNum = require('number-abbreviate')
+const fs = require('fs')
 const {Canvas,fillWithEmoji} = require('discord-emoji-canvas')
 const Util = require('../../util/MitUtil.js')
 const { MessageAttachment } = require('discord.js')
